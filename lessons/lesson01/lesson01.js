@@ -180,3 +180,7 @@ let exists = cities.includes("London");
 console.log("Does London exist in cities?", exists);
 exists = cities.includes("NonExistentCity");
 console.log("Does NonExistentCity exist in cities?", exists);
+let name = "Tokyo";
+let counry = "Japan";
+let message = name - counry;
+console.log(message);
