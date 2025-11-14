@@ -1,13 +1,28 @@
 # lessons111125
 
-## hw
+## HW
 
-# lessons111125
+1. **Створити та перейти в гілку**
 
-## hw
+`<nickname>/<hwXX>`
 
-- create and checkout branch `<nikname>/<hwXX>` for `example lhalam/hw02`, and add files
-- create folder `hw/hw02/<nikname>` and add file [learngitbranching.js.org](https://learngitbranching.js.org/?locale=uk))
-- git add/commit/push
-- create pr
+Приклад:
 
+`lhalam/hw02`
+
+2. **Створити структуру папок**
+
+`hw/hw02/<nickname>`
+
+Додати сюди скріншоти з проходження вправ:  
+https://learngitbranching.js.org/?locale=uk
+
+3. **Виконати коміти**
+```cmd
+git add .
+git commit -m "Added hwXX for <nickname>"
+git push
+```
+
+
+4. **Створити Pull Request** зі своєї гілки.
