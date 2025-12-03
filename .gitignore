@@ -141,5 +141,6 @@ vite.config.ts.timestamp-*
 # JetBrains IDEs
 .idea/
 
-# mac_os file
+# MacOS files
 .DS_Store
+.vscode/
