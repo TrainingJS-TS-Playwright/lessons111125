@@ -1,6 +1,7 @@
 function invert(array) {
-    const invertedArr = array.map(n => n === 0 ? 0 : -n);
-    return invertedArr;
+    // const invertedArr = array.map(n => n === 0 ? 0 : -n);
+    // return invertedArr;
+    return array.map(n=> -1 * n);
 }
 
 

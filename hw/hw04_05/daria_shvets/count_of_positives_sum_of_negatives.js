@@ -1,9 +1,9 @@
 function countPositivesSumNegatives(input) {
     let countPos = 0;
     let sumNeg = 0;
-    let final = [];
+    // let final = [];
 
-    input.forEach((element) => {
+    input.forEach(function(element) {
         if (element > 0) {
             countPos++;
         }
@@ -11,9 +11,10 @@ function countPositivesSumNegatives(input) {
             sumNeg += element;
         }
     });
-    final.push(countPos);
-    final.push(sumNeg);
-    return final;
+    // final.push(countPos);
+    // final.push(sumNeg);
+    // return final;
+    return [countPos, sumNeg];
 }
 
 console.log(countPositivesSumNegatives([-7, 1, 2, -3, -10]))

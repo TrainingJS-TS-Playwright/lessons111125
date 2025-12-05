@@ -3,10 +3,8 @@ function findAverage(array) {
     if (array.length === 0) {
         return 0;
     }
-    else {
-        for (let x of array) {
-            sum += x;
-        }
+    for (let x of array) {
+        sum += x;
     }
     return sum / array.length;
 

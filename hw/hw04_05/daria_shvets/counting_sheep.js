@@ -1,10 +1,12 @@
 function countSheeps(sheep) {
-    let sum = 0;
-    for (let value of sheep) {
-        if (value === true)
-            sum++;
-    }
-    return sum;
+    // let sum = 0;
+    // for (let value of sheep) {
+    //     if (value === true)
+    //         sum++;
+    // }
+    // return sum;
+    return sheep.filter(Boolean).length, sheep.filter((element) => element === true).length;
+
 }
 
 console.log(countSheeps([undefined, null, false, true]));
