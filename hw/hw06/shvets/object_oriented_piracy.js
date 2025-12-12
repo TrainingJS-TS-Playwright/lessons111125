@@ -1,0 +1,14 @@
+class Ship {
+    constructor(draft, crew) {
+        this.draft = draft
+        this.crew = crew
+    }
+    isWorthIt() {
+        return this.draft - this.crew * 1.5 > 20;
+    }
+}
+
+
+const titanic = new Ship(150, 10);
+
+console.log(titanic.isWorthIt())
