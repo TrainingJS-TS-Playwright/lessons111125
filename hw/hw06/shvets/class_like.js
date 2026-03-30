@@ -1,0 +1,15 @@
+class Animal {
+constructor (name, type) {
+    this.name = name
+    this.type = type
+}
+toString() {
+   return `${this.name} is a ${this.type}`
+}
+
+}
+
+let dog = new Animal('Max', 'dog');
+dog.name = 'Lassie'
+
+console.log(dog.name)
